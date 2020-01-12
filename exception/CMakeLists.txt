@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8)
 
 project(example)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -Wall -Wextra -Wno-unused-parameter")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -Wall -Wextra -Wno-unused-parameter")
 
 find_package(SWIG REQUIRED)
 include(${SWIG_USE_FILE})
