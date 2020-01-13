@@ -27,5 +27,10 @@ q, r = example.divide(42, 37)
 print(f"42 div 37 = {q} remind {r}")
 
 
+a = [10, 20, 30]
+b = [0]*3
+print(f"{example.testPointer(a,b)}")
+
+
 
 
